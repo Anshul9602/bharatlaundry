@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Coming Soon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet"> 
+    <style>
+        body, html {
+            height: 100%; /* Full height */
+            margin: 0; /* Remove default margin */
+            display: flex;
+            flex-direction: column; /* Stack children vertically */
+            justify-content: center; /* Center children vertically */
+        }
+
+        body {
+            color: #5d5d5d;
+            font-family: 'Montserrat', sans-serif; /* Fallback to sans-serif if Montserrat is not available */
+            text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.75);
+            background-image: url('https://bharatlaundry.co/b23.png'); /* Replace with your actual image URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            text-align: left; /* Ensure text is aligned to the left */
+        }
+
+        .container {
+            margin-left: 10%; /* Adjust as needed for left alignment */
+            max-width: 80%; /* Prevent the container from being too wide */
+        }
+
+        h1 {
+            font-size: 2.45em;
+            font-weight: 800; /* Extra bold for Montserrat */
+            color: #2D1F77;
+            letter-spacing: -0.02em;
+            margin-bottom: 30px;
+        }
+
+        .description-text {
+            color: #eb5a1f;
+            letter-spacing: -0.01em;
+            font-size: 1.25em;
+            line-height: 20px;
+            font-weight: 600; /* Assuming a semi-bold look */
+        }
+
+        img {
+            max-width: 220px;
+            margin-top: 20px;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .container {
+                margin-left: 5%; /* Smaller margin for smaller screens */
+                max-width: 90%; /* Allow more width for the container on small screens */
+            margin-top: -120px;
+			}
+
+            h1 {
+                font-size: 1.5em; /* Slightly smaller font size for smaller screens */
+            }
+
+            .description-text {
+                font-size: 0.8em; /* Adjust font size for readability on small devices */
+            }
+
+            body {
+				background-image: url('https://bharatlaundry.co/body-bg.jpg'); 
+                background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;  
+            text-align:center;
+             }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://bharatlaundry.co/logos.png" alt="">
+        <h1>We're working on it!</h1>
+        <div class="description-text">
+            <p>This site is currently under construction.</p>
+            <p>Please check back soon.</p>
+        </div>
+    </div>
+</body>
+</html>
+
